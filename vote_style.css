@@ -1,0 +1,35 @@
+input[type='text'] 
+{ 
+	font-family: 
+	consolas; 
+	color: #99ca92; 
+	background-color: #343d46; 
+	border: 0;
+	outline: 0; 
+	border-bottom: 1px solid #6186a8;
+}
+input[type='password'] 
+{
+	font-family: consolas;
+	color: #99ca92; 
+	background-color: #343d46; 
+	border: 0;
+	outline: 0; 
+	border-bottom: 1px solid #6186a8;
+}
+input[type='button'] 
+{
+	font-family: consolas; 
+	color: #659dd5; 
+	background-color: #343d46; 
+	border: 1px solid #6186a8;
+	border-radius: 4px;
+}
+input[type='submit'] 
+{
+	font-family: consolas; 
+	color: #659dd5; 
+	background-color: #343d46; 
+	border: 1px solid #6186a8;
+	border-radius: 4px;
+}

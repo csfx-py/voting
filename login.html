@@ -1,0 +1,55 @@
+<?php
+session_start();
+?>
+
+<html>
+<head>
+
+<title>
+Login
+</title>
+
+<link rel="stylesheet" href="vote_style.css">
+
+<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #659dd5;
+  text-align: right;
+}
+</style>
+
+<div class="footer">
+  <p> &copy; csfx &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+</div>
+
+</head>
+
+<body bgcolor="#343d46">
+
+<center>
+
+<form method = "post" action = "log.php" >
+	<font color="fcb04e" face="Consolas">Roll Number<br></font>
+	<input type = "text" name = "roll" id = "roll" placeholder="Your roll number"><br><br>
+
+	<font color="fcb04e" face="Consolas">Pass<br></font>
+	<input type = "password" name = "pass" id = "pword" placeholder="Password"><br><br>
+
+	<input face="Consolas" type = "submit" value = "Login" name = "login" id = "lgbtn"> &nbsp; &nbsp; &nbsp; &nbsp; 
+
+	<font color="f35e64" face="Consolas">Not yet registered?<br></font> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+	<a href = "reg.html"><input type = "button" value = "Register" name = "reg" id = "rgbtn"> </a><br><br>
+	
+	<a href = "votecount.php"><input type = "button" value = "Results" name = "vc"></a><br><br>
+
+</form>
+
+</center>
+
+</body>
+
+</html>

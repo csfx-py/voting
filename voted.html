@@ -1,0 +1,46 @@
+<?php
+session_start();
+
+if($_SESSION['status']!="Active")
+{
+    header("location:login.html");
+}
+?>
+
+<html>
+<head>
+
+<title>
+</title>
+
+<link rel="stylesheet" href="vote_style.css">
+
+<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #659dd5;
+  text-align: right;
+}
+</style>
+
+<div class="footer">
+  <p> &copy; csfx &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+</div>
+
+</head>
+
+<body bgcolor="#343d46">
+
+<center>
+<font color="fcb04e" face="Consolas">Your vote is casted, thank you</font><br><br>
+<form action="logout.php" method = "get">
+	<input face="Consolas" type = "submit" value = "Log out" name = "lout">
+</form>
+</center>
+
+</body>
+
+</html>
